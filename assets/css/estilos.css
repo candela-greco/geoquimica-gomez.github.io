@@ -54,7 +54,12 @@ body {
   background-color: #373a3c;
   color: white; 
 }
-
+#educacion h2 {
+  text-align: center;
+  font-weight: 700;
+  color:white;
+  font-size: 3rem;
+}
 .card-body.text-dark {
   color:  #373a3c; 
   height:auto;
