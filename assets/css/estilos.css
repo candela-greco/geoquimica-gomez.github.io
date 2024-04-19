@@ -138,6 +138,24 @@ body {
   box-shadow: 0px 0px 15px #d3bac3;
 }
 
+.nav-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #ffffff80;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.1s linear;
+  user-select: none;
+}
+
+.nav-button:hover,
+:focus {
+  color: #ffffff;
+  scale: 1.1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
+
 /* Footer */
 
 footer {
